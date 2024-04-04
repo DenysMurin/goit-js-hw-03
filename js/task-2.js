@@ -1,7 +1,7 @@
 function makeArray(firstArray, secondArray, maxLength) {
   const arrayUnited = firstArray.concat(secondArray);
   const arrayCutted = arrayUnited.slice(0, maxLength);
-  console.log("arrayUnited:", arrayUnited);
+
   return arrayCutted;
 }
 

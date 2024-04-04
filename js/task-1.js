@@ -5,12 +5,12 @@ function slugify(title) {
 }
 
 // второй метод
-function slugify(title) {
-  const titleLowered = title.toLowerCase();
-  const titleSplitted = titleLowered.split(" ");
-  const titleJoined = titleSplitted.join("-");
-  return titleJoined;
-}
+// function slugify(title) {
+//   const titleLowered = title.toLowerCase();
+//   const titleSplitted = titleLowered.split(" ");
+//   const titleJoined = titleSplitted.join("-");
+//   return titleJoined;
+// }
 
 console.log(slugify("Arrays for begginers")); // "arrays-for-begginers"
 console.log(slugify("English for developer")); // "english-for-developer"
